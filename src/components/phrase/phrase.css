@@ -1,0 +1,7 @@
+.phrase__text {
+    background-color: white;
+    max-width: 500px;
+    padding: 3rem;
+    border: 2px solid rgb(0, 86, 156);
+    margin: 0 1rem;
+}

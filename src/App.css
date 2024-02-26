@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+.app__container {
+  font-family: "Kode Mono", monospace;
+  background-image: url("../fondo1.png");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.app__title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: -0.1rem;
+  word-spacing: -0.3rem;
+  margin: 8rem 0 3rem;
+  text-align: center;
+  color: white; /* Color del texto (blanco en este caso) */
+  text-shadow: -3px -3px 0 #ffa500, 3px -3px 0 #ffa500, -3px 3px 0 #ffa500,
+    3px 3px 0 #ffa500;
+}
